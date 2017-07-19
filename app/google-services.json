@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915942199816",
+    "firebase_url": "https://recipier-f0da9.firebaseio.com",
+    "project_id": "recipier-f0da9",
+    "storage_bucket": "recipier-f0da9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915942199816:android:9244e2b91bc2dfad",
+        "android_client_info": {
+          "package_name": "com.hackdav.recipierv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915942199816-jc7i1slmhjjtm819hotli1msm0upq4b7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackdav.recipierv1",
+            "certificate_hash": "bd672ef8b67cb4a5468c733e3f86166b2e23a5e8"
+          }
+        },
+        {
+          "client_id": "915942199816-j4ufuin9hbm7hb9hpkp2d49l7ivpimlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgqySB_THWKvxCOsvA2CagvPbxAHA7wE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915942199816-j4ufuin9hbm7hb9hpkp2d49l7ivpimlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

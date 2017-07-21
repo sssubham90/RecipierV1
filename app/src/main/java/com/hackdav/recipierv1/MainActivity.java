@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import java.util.LinkedList;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private TextView Ingredients;
@@ -97,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
         checkBox.setChecked(false);
         checkBox=(CheckBox) findViewById(R.id.C22);
         checkBox.setChecked(false);
+        ingridients.delete(0,ingridients.length());
     }
 
     public void onCheckboxClicked(View view) {
@@ -105,62 +105,62 @@ public class MainActivity extends AppCompatActivity {
             case R.id.C10:
                 if (checked){
                     code.add(10);
-                    ingridients.append(codeMap.get(10)+" ");}
+                    ingridients.append(codeMap.get(10)).append(" ");}
                 break;
             case R.id.C11:
                 if (checked){
                     code.add(11);
-                    ingridients.append(codeMap.get(11)+" ");}
+                    ingridients.append(codeMap.get(11)).append(" ");}
                 break;
             case R.id.C12:
                 if (checked){
                     code.add(12);
-                    ingridients.append(codeMap.get(12)+" ");}
+                    ingridients.append(codeMap.get(12)).append(" ");}
                 break;
             case R.id.C13:
                 if (checked){
                     code.add(13);
-                    ingridients.append(codeMap.get(13)+" ");}
+                    ingridients.append(codeMap.get(13)).append(" ");}
                 break;
             case R.id.C14:
                 if (checked){
                     code.add(14);
-                    ingridients.append(codeMap.get(14)+" ");}
+                    ingridients.append(codeMap.get(14)).append(" ");}
                 break;
             case R.id.C15:
                 if (checked){
                     code.add(15);
-                    ingridients.append(codeMap.get(15)+" ");}
+                    ingridients.append(codeMap.get(15)).append(" ");}
                 break;
             case R.id.C16:
                 if (checked){
                     code.add(16);
-                    ingridients.append(codeMap.get(16)+" ");}
+                    ingridients.append(codeMap.get(16)).append(" ");}
                 break;
             case R.id.C17:
                 if (checked){
                     code.add(17);
-                    ingridients.append(codeMap.get(17)+" ");}
+                    ingridients.append(codeMap.get(17)).append(" ");}
                 break;
             case R.id.C19:
                 if (checked){
                     code.add(19);
-                    ingridients.append(codeMap.get(19)+" ");}
+                    ingridients.append(codeMap.get(19)).append(" ");}
                 break;
             case R.id.C20:
                 if (checked){
                     code.add(20);
-                    ingridients.append(codeMap.get(20)+" ");}
+                    ingridients.append(codeMap.get(20)).append(" ");}
                 break;
             case R.id.C21:
                 if (checked){
                     code.add(21);
-                    ingridients.append(codeMap.get(21)+" ");}
+                    ingridients.append(codeMap.get(21)).append(" ");}
                 break;
             case R.id.C22:
                 if (checked){
                     code.add(22);
-                    ingridients.append(codeMap.get(22)+" ");}
+                    ingridients.append(codeMap.get(22)).append(" ");}
                 break;
         }
     }
